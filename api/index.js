@@ -14,4 +14,4 @@ router.get('/api', (req, res) => {
 });
 
 //pets router
-router.use("/api/v1/pets", require("./pets.js"));
+router.use("/api/pets", require("./pets.js"));
