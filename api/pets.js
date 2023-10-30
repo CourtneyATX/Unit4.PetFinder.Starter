@@ -3,10 +3,10 @@ const router = express.Router();
 module.exports = router;
 
 // import the pets array from data.js
-const pets = require('./data');
+const pets = require('./data.js');
 
 // get all pets from the database
-router.get("/api/pets", (req, res) => {
+router.get('/api/pets', (req, res) => {
     // send the pets array as a response
     res.json(pets);
 });
